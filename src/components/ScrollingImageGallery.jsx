@@ -16,28 +16,28 @@ const ScrollingImageGallery = ({ images }) => {
     {
       y: y1,
       // --- REDUCED WIDTH ---
-      positionClasses: 'absolute top-8 left-4 w-48', // was w-72
+      positionClasses: 'absolute top-8 left-4 w-32 lg:w-48', // was w-72
       rotate: -6,
       zIndex: 1,
     },
     {
       y: y2,
       // --- REDUCED WIDTH ---
-      positionClasses: 'absolute top-1/4 right-4 w-48', // was w-80
+      positionClasses: 'absolute top-1/4 right-4 w-32 lg:w-48', // was w-80
       rotate: 4,
       zIndex: 2,
     },
     {
       y: y3,
       // --- REDUCED WIDTH ---
-      positionClasses: 'absolute top-1/2 left-1/4 w-48', // was w-64
+      positionClasses: 'absolute top-1/2 left-1/4 w-32 lg:w-48', // was w-64
       rotate: -3,
       zIndex: 3,
     },
   ];
 
   return (
-    <div ref={galleryRef} className="relative h-[450px]">
+    <div ref={galleryRef} className="relative h-[350px] lg:h-[450px] w-full">
       {images.map((img, i) => {
         const anim = imageAnims[i % imageAnims.length];
         return (
