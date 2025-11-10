@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className="hidden md:flex justify-center items-center h-96">
+          <div className=" md:flex justify-center items-center h-96">
             <motion.div 
               className="w-80 h-80 rounded-full overflow-hidden shadow-2xl shadow-blue-500/80 border-8 border-slate-800"
               initial={{ opacity: 0, scale: 0.5 }}

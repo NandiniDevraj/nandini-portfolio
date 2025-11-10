@@ -87,9 +87,9 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-24 overflow-hidden">
+    <section id="experience" className="py-24">
       <div className="container mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-20">
+        <h2 className="text-4xl font-bold text-center mb-16">
           Work Experience<span className="text-violet-400">.</span>
         </h2>
         
@@ -117,7 +117,7 @@ const Experience = () => {
                   </div>
                 </div>
 
-                <div className="hidden lg:flex justify-center lg:w-1/2 p-8">
+                <div className=" lg:flex justify-center lg:w-1/2 p-8">
                   <ScrollingImageGallery images={item.images} />
                 </div>
               </motion.div>
