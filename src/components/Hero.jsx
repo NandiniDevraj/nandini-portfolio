@@ -46,7 +46,7 @@ const Hero = () => {
               <a href="https://github.com/NandiniDevraj" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" title="GitHub">
                 <FaGithub size={28} />
               </a>
-              <a href="https://leetcode.com/u/Nandini-Devraj/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FFA116] transition-colors" title="LeetCode">
+              <a  target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FFA116] transition-colors" title="LeetCode">
                 <SiLeetcode size={28} />
               </a>
               <a href="mailto:devarajnandini23@gmail.com" className="text-gray-400 hover:text-[#EA4335] transition-colors" title="Email">
