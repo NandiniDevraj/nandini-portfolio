@@ -44,7 +44,7 @@ const Contact = () => {
           >
             <div className="flex justify-center gap-12 text-gray-300">
               <a href="https://www.linkedin.com/in/nandinidevraj/" target="_blank" rel="noopener noreferrer" className="hover:text-violet-400 transition-colors z-10"><FaLinkedin size={32} /></a>
-              <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="hover:text-violet-400 transition-colors z-10"><FaGithub size={32} /></a>
+              <a href="https://github.com/NandiniDevraj" target="_blank" rel="noopener noreferrer" className="hover:text-violet-400 transition-colors z-10"><FaGithub size={32} /></a>
               <a href="mailto:devarajnandini23@gmail.com" className="hover:text-violet-400 transition-colors z-10"><FaEnvelope size={32} /></a>
               {/* <a href="https://scholar.google.com/citations?user=your-id" target="_blank" rel="noopener noreferrer" className="hover:text-violet-400 transition-colors z-10"><FaGoogle size={32} /></a> */}
             </div>
