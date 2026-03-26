@@ -42,7 +42,7 @@ const projectsData = [
       { name: 'Python', icon: <SiPython /> },
       { name: 'NLP', icon: <FaBrain /> },
     ],
-    link: 'https://github.com/your-repo-link', // <-- UPDATE THIS LINK
+    link: 'https://github.com/NandiniDevraj/FakeNewsDetection', // <-- UPDATE THIS LINK
     linkText: 'View on GitHub',
     linkIcon: <FaGithub />,
   },
