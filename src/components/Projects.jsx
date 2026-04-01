@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaBrain, FaLink } from 'react-icons/fa';
-import { SiPython, SiScikitlearn, SiLangchain, SiUnity, SiTensorflow } from 'react-icons/si';
+import { FaGithub, FaBrain, FaLink, FaKey } from 'react-icons/fa';
+import { SiPython,SiMongodb, SiScikitlearn, SiLangchain,SiReact, SiUnity, SiTensorflow,  SiNodedotjs} from 'react-icons/si';
 
 // All 3 projects from your resume with relevant details
 const projectsData = [
@@ -20,16 +20,17 @@ const projectsData = [
     linkIcon: <FaLink />,
   },
   {
-    title: 'LLM-based Medical Report Explainer & Q&A',
-    shortDescription: 'A tool to simplify complex medical documents for patients.',
-    longDescription: 'Built a medical report explainer using LLaMA-2 and LangChain-RAG, achieving >88% layman readability and enabling a voice-based Q&A assistant with Whisper ASR.',
-    technologies: [
-      { name: 'LangChain', icon: <SiLangchain /> },
-      { name: 'LLM', icon: <FaBrain /> },
-      { name: 'Python', icon: <SiPython /> },
-      { name: 'RAG', icon: <FaLink /> },
+    title: 'ClaimGaurd-AI',
+    shortDescription:  'Preventing insurance claim denials through AI-driven analysis of clinical documentation and policy requirements.',
+    longDescription: 'This bridges the gap between clinical documentation and complex insurance policy requirements by analyzing both in real time, identifying missing evidence, and generating actionable recommendations tailored to physicians, billing teams, and patients By proactively detecting documentation gaps and predicting approval likelihood.',
+     technologies: [
+      { name: 'Node.js', icon: <SiNodedotjs /> },
+      { name: 'React', icon: <SiReact /> },
+      { name: 'JWT', icon: <FaKey /> },
+      { name: 'MongoDB', icon: <SiMongodb /> },
+      //{ name: 'Security', icon: <FaShieldAlt /> },
     ],
-    link: 'https://github.com/your-repo-link', // <-- UPDATE THIS LINK
+   link: 'https://github.com/NandiniDevraj/ClaimGuard-AI',
     linkText: 'View on GitHub',
     linkIcon: <FaGithub />,
   },
