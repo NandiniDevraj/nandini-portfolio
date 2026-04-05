@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaBrain, FaLink, FaKey } from 'react-icons/fa';
-import { SiPython,SiMongodb, SiScikitlearn, SiLangchain,SiReact, SiUnity, SiTensorflow,  SiNodedotjs} from 'react-icons/si';
+import { SiPython, SiMongodb, SiScikitlearn, SiLangchain, SiReact, SiUnity, SiTensorflow, SiNodedotjs, SiDocker } from 'react-icons/si';
 
 // All 3 projects from your resume with relevant details
 const projectsData = [
+
   {
     title: 'VR Welding Simulation with Reinforcement Learning',
     shortDescription: 'An AI-driven VR training environment for welding tasks.',
@@ -19,6 +20,21 @@ const projectsData = [
     linkText: 'Read Paper',
     linkIcon: <FaLink />,
   },
+  {
+    title: 'Autonomous ML Research Agent',
+    shortDescription: 'Upload a dataset. Define a problem. Watch 6 AI agents run the full ML lifecycle autonomously.',
+    longDescription: 'Built a multi-agent AI system using LangGraph that autonomously runs EDA, feature engineering, trains 5 models tracked in MLflow, selects the champion, generates a PDF research report, and deploys a live FastAPI endpoint on AWS ECS Fargate — all in under 15 minutes.',
+    technologies: [
+      { name: 'LangGraph', icon: <SiLangchain /> },
+      { name: 'Python', icon: <SiPython /> },
+      { name: 'MLflow', icon: <FaBrain /> },
+      { name: 'Docker', icon: <SiDocker /> },
+      { name: 'AWS ECS', icon: <FaLink /> },
+    ],
+    link: 'https://github.com/NandiniDevraj/ml-research-agent',
+    linkText: 'View on GitHub',
+    linkIcon: <FaGithub />,
+ },
   {
     title: 'ClaimGaurd-AI',
     shortDescription:  'Preventing insurance claim denials through AI-driven analysis of clinical documentation and policy requirements.',
