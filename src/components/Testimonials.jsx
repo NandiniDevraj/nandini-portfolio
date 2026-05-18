@@ -45,14 +45,14 @@ const Testimonials = () => {
         <h2 className="text-4xl font-bold text-center mb-12">
           What Others Say<span className="text-blue-400">.</span>
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex gap-8 overflow-x-auto pb-4 snap-x snap-mandatory">
           {testimonialData.map((testimonial, index) => (
             <motion.a
               key={index}
               href={testimonial.linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="block"
+              className="block flex-shrink-0 w-80 snap-start"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
